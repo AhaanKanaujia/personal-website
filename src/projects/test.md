@@ -4,10 +4,10 @@ description: Built a Search Engine website that employs the TFIDF ranking algori
 author: Ahaan Kanaujia
 date: 2020-09-23T15:13:13.021Z
 tags:
-  - python
-  - flask
-  - WikipediaAP
-  - react.js
+  - Python
+  - Flask
+  - WikipediaAPI
+  - React.js
   - TailwindCSS
 ---
 
