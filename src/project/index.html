@@ -20,7 +20,7 @@ layout: projects
             <p class="tag-list">
                 {% for tag in post.data.tags %}
                 {%- if tag != "project" -%}
-                    {{ tag }}
+                    <span>{{ tag }}</span>
                 {%- endif -%}
                 {% endfor %}
             </p>
