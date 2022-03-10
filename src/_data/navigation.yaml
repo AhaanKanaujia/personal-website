@@ -2,9 +2,9 @@
 items:
   - text: About
     url: "/about"
-  - text: Menu Two
+  - text: Projects
     url: "#"
-  - text: Menu Three
+  - text: Coding
     url: "#"
-  - text: Blog
-    url: "/blog"
+  - text: Contact
+    url: "#"
