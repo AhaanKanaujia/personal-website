@@ -20,8 +20,7 @@ layout: projects
             <p class="tag-list">
                 {% for tag in post.data.tags %}
                 {%- if tag != "project" -%}
-                    {% set tagUrl %}/project-tags/{{ tag }}/{% endset %}
-                <a class="project-card__tag tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                    {{ tag }}
                 {%- endif -%}
                 {% endfor %}
             </p>
