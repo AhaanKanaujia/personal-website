@@ -1,10 +1,9 @@
----
 items:
   - text: About
-    url: "/about"
+    url: /about
   - text: Projects
-    url: "/projects"
-  - text: Experience
-    url: "/experience"
+    url: /projects
+  - text: Work Experience
+    url: /experience
   - text: Contact
-    url: "/contact"
+    url: /contact
