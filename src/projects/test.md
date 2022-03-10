@@ -28,7 +28,7 @@ Created a Flask backend API for processing requests to the search algorithms. It
 
 <br>
 
-## Libraries Used: NLTK, SciPy, NumPy, pandas
+**Libraries Used: NLTK, SciPy, NumPy, pandas**
 
 <br>
 
