@@ -3,7 +3,12 @@ title: Search Engine
 description: Built a Search Engine website that employs the TFIDF ranking algorithm.
 author: Ahaan Kanaujia
 date: 2020-09-23T15:13:13.021Z
-tags: second-tag
+tags:
+  - python
+  - flask
+  - WikipediaAP
+  - react.js
+  - TailwindCSS
 ---
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
