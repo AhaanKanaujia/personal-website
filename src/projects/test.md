@@ -32,4 +32,4 @@ Created a Flask backend API for processing requests to the search algorithms. It
 
 <br>
 
-**[GitHub](https://github.com/AhaanKanaujia)**
+<u>**[GitHub](https://github.com/AhaanKanaujia)**
