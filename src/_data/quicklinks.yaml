@@ -1,7 +1,7 @@
 links:
   - title: About
     url: https://www.netlifycms.org/
-    desc: About me.
+    desc: Read more about me.
   - title: Projects
     url: https://www.11ty.dev/
     desc: Some of the personal projects I've worked on.
@@ -10,4 +10,4 @@ links:
     desc: "The languages I've worked in and the relevant courses I've taken. "
   - title: Contact
     url: https://tailwindcss.com/
-    desc: Contact me!
+    desc: Get in touch.
