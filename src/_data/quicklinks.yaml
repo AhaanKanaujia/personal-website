@@ -1,14 +1,13 @@
----
 links:
-  - title: Netlify CMS
-    url: "https://www.netlifycms.org/"
-    desc: Open source content management for your Git workflow
-  - title: Eleventy
-    url: "https://www.11ty.dev/"
-    desc: Eleventy is a simpler static site generator.
-  - title: Alpine.js
-    url: "https://github.com/alpinejs/alpine"
-    desc: A minimal framework for composing JavaScript behavior in your markup.
-  - title: Tailwind CSS
-    url: "https://tailwindcss.com/"
-    desc: A utility-first CSS framework for rapidly building custom designs.
+  - title: About
+    url: https://www.netlifycms.org/
+    desc: About me.
+  - title: Projects
+    url: https://www.11ty.dev/
+    desc: Some of the personal projects I've worked on.
+  - title: Coding
+    url: https://github.com/alpinejs/alpine
+    desc: "The languages I've worked in and the relevant courses I've taken. "
+  - title: Contact
+    url: https://tailwindcss.com/
+    desc: Contact me!
