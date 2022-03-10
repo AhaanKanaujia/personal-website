@@ -3,8 +3,8 @@ items:
   - text: About
     url: "/about"
   - text: Projects
-    url: "#"
-  - text: Coding
-    url: "#"
+    url: "/projects"
+  - text: Experience
+    url: "/experience"
   - text: Contact
-    url: "#"
+    url: "/contact"
