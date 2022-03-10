@@ -16,7 +16,7 @@ tags:
 
 A Wikipedia web-crawler downloads documents for searching. A TFIDF DataFrame is created for each word present in every search document. Implemented 3 different searching algorithms: cosine similarity algorithm, Jaccard index similarity algorithm, and the Ratcliff-Obershelp sequence based algorithm that returns the most relevant Wikipedia document based on a tokenized query. Also used the Levenshtein Distance edit based distance algorithm to widen the scope of the query, which accounts for minor errors in spelling and grammar.
 
-___
+<br>
 
 ### Front End:
 
