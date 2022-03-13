@@ -24,6 +24,12 @@ Created a Flask backend API for processing requests to the search algorithms. It
 
 <br>
 
-![](/static/img/searchengine.png)
+![Site Functionality](/static/img/searchengine.png "Site Functionality")
 
-**[GitHub](https://github.com/AhaanKanaujia)**
+<br>
+
+**Libraries Used: NLTK, SciPy, NumPy, pandas**
+
+<br>
+
+<u>**[GitHub](https://github.com/AhaanKanaujia)**
