@@ -53,12 +53,30 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  /* Markdown Plugins */
+  let markdownIt = require("markdown-it");
+  let markdownItAnchor = require("markdown-it-anchor");
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+  let opts = {
+    permalink: false
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt(options)
+    .use(markdownItAnchor, opts)
+  );
+
   // Let Eleventy transform HTML files as nunjucks
   // So that we can use .html instead of .njk
   return {
+    templateFormats: ["md", "njk", "html", "liquid"],
     dir: {
       input: "src",
     },
+    markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
   };
 };

@@ -25,6 +25,9 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
+    "liquidjs": "^9.36.0",
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.4.1",
     "postcss": "^8.4.5"
   }
 }
