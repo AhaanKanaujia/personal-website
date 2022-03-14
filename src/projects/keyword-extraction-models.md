@@ -1,5 +1,5 @@
 ---
-title: Keyword Extraction Models
+title: Keyword Extraction using Text Rank
 description: Implemented Google's Page Rank Keyword Extraction Method
 author: Ahaan Kanaujia
 date: 2022-03-14T02:01:20.997Z
@@ -16,3 +16,5 @@ In Text Rank, a piece of text is tokenized and annotated with part of speech tag
 ### Analysis of Text Rank:
 
 Text Rank is efficient for fast and lightweight extraction of keywords. It can be applied on documents, articles, and any piece of text to get the underlying keywords of the piece of text that are representative of the document. It is also completely unsupervised and draws information only from text itself. However, text rank still cannot achieve the same results as that of supervised models, since a limitation is imposed on the number of keywords to be selected, which creates a smaller dataset. Text Rank can be improved by modifying the algorithm to consider the position of the words in a piece of text or by considering a set of documents instead of a single one to extract global information.
+
+[<strong><u>GitHub](https://github.com/AhaanKanaujia/Keyword-Extraction)
