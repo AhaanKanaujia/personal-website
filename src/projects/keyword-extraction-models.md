@@ -6,7 +6,8 @@ date: 2022-03-14T02:01:20.997Z
 tags:
   - Python
   - Machine Learning
-  - NLP
+  - NLTK
+  - spaCy
 ---
 ### Working of Text Rank:
 
