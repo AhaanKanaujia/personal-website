@@ -1,13 +1,13 @@
 links:
   - title: About
-    url: https://ahaankanaujia.netlify.app/about
+    url: https://ahaankanaujia.me/about
     desc: Read more about me.
   - title: Projects
-    url: https://ahaankanaujia.netlify.app/project
+    url: https://ahaankanaujia.me/project
     desc: Some of the personal projects I've worked on.
   - title: Work Experience
-    url: https://ahaankanaujia.netlify.app/experience
+    url: https://ahaankanaujia.me/experience
     desc: Some of my previous work experiences.
   - title: Contact
-    url: https://ahaankanaujia.netlify.app/contact
+    url: https://ahaankanaujia.me/contact
     desc: Get in touch with me.
