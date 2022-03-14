@@ -6,7 +6,7 @@ date: 2020-09-23T15:13:13.021Z
 tags:
   - Python
   - NLTK
-  - SciPy
+  - spaCy
   - Flask
   - WikipediaAPI
   - React.js
@@ -28,7 +28,7 @@ Created a Flask backend API for processing requests to the search algorithms. It
 
 <br>
 
-**Libraries Used: NLTK, SciPy, NumPy, pandas**
+**Libraries Used: NLTK, spaCy, NumPy, pandas**
 
 <br>
 
