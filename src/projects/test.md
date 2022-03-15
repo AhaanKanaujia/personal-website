@@ -1,6 +1,6 @@
 ---
 title: Search Engine
-description: Built a Search Engine website that employs the TFIDF ranking algorithm.
+description: Built a Search Engine Website that employs the TFIDF Ranking Algorithm.
 author: Ahaan Kanaujia
 date: 2020-09-23T15:13:13.021Z
 tags:
