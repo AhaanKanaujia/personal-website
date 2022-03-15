@@ -1,6 +1,6 @@
 ---
 title: Movie Recommendation System
-description: Built a ML content based movie recommendation system.
+description: Built a ML Content Based Movie Recommendation System
 author: Ahaan Kanaujia
 date: 2022-03-14T07:22:00.292Z
 tags:
