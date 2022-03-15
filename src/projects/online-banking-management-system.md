@@ -1,5 +1,5 @@
 ---
-title: Online Banking Management System
+title: Online Bank Management System
 description: Built a Bank Management System Website with Python and Flask
 author: Ahaan Kanaujia
 date: 2022-03-15T00:32:34.644Z
