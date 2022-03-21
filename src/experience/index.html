@@ -3,50 +3,34 @@ title: Experiences
 layout: default
 ---
 
-<div class="container max-w-3xl mt-6 px-6">
+<div class="container max-w-3xl mt-6 px-6" style="font-family: sans-serif;">
   <h1 class="font-bold text-5xl">{{title}}</h1>
-  <div class="font-bold text-1xl">
-      <ul>
-    <h3 id="caesar-research-group">Caesar Research Group</h3></ul>
-    <p>
-      <strong>December 2021 – Present</strong>
+  <br>
+  <div>
+      <h2 class="font-bold text-3xl text-gray-900 mb-2">Caesar Research Group</h2>
+      <h4><i><b>NLP Undergraduate Research Assistant</b></i></h4>
       <br>
-      <em>NLP Undergraduate Research Assistant Urbana, IL</em>
-    </p>
-    <ul>
       <li>
-        Performed research on Short-Text Categorization and Keyword Extraction
-        methods
+        Performed research on using semantic clustering algorithms and convolutional neural networks to perform
+        <span style="text-decoration: underline #3b82f6;">
+            <a href="https://aclanthology.org/P15-2058.pdf" class="underline" target="_blank">Short Text Categorization</a>
+        </span>
+        or find topics (clusters) inside a collection of short texts through implementing 
+        unsupervised learning models.
       </li>
-      <li>
-        Wrote a paper exploring state of the art graphical and statistical based
-        Keyword Extraction Methods
-      </li>
-      <li>
-        Implemented and analyzed the results of the Text Rank and TF-IDF
-        algorithm using spaCy and NLTK
-      </li>
-    </ul>
-    <br><br>
-    <ul><h3 id="ideation-technologies">Ideation Technologies</h3></ul>
-    <p>
-      <strong>July 2021 – August 2021</strong>
       <br>
-      <em>Data Science Intern Kolkata, West Bengal, India</em>
-    </p>
-    <ul>
       <li>
-        Performed Geospatial Interpolation of PM 2.5 and 10 air pollutant
-        concentrations using the Kriging Model
+        Performed research on graphical and statistical based
+        <span style="text-decoration: underline #3b82f6;">
+            <a href="https://towardsdatascience.com/keyword-extraction-methods-the-overview-35557350f8bb" class="underline" target="_blank">Keyword Extraction Methods</a>
+        </span>
+        specifically, the TFIDF and Text Rank algorithms. Wrote a paper
+        analysing the performance of these algorithms and implemented both of them in Python.
+        <span style="text-decoration: underline #3b82f6;">
+            <a href="https://github.com/AhaanKanaujia/Keyword-Extraction" class="underline" target="_blank">github repo</a>
+        </span>
+        with the code and the paper.
       </li>
-      <li>
-        Used multiple regression analysis to create first order trend surfaces
-      </li>
-      <li>
-        Worked with NumPy, pandas, Matplotlib, seaborn, and scikit-learn on
-        Jupyter Notebooks
-      </li>
-    </ul>
   </div>
   {{ content | safe }}
 </div>
