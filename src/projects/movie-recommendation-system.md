@@ -24,10 +24,26 @@ Streamlit was used as the front end of the website. It displays the movie poster
 
 <br>
 
+### Concept:
+
+Every movie in the database is assigned a piece of text, called tags, which is created by combining the cast, crew, genre, overview, and synopsis text of movie. 
+
+<br>
+
+Next, a bag of words is created, which include all the words present in all the tags assigned to all 5000 movies. After that, we compare every movie's tags with the bag of words and create a vector of 0's and 1's depending on if a word in a movie's tags is found in the bag of words. 
+
+<br>
+
+And finally, we compare vectors of 2 movies to create a list of the most similar movies, which are displayed on the website by utilizing a TMDB API to grab movie data. 
+
+<br>
+
 **Libraries Used: scikit-learn, NLTK, NumPy, pandas, Streamlit**
 
 **<br>**
 
 <strong><u>[GitHub](https://github.com/AhaanKanaujia/Movie-Recommendation-System)
+
+<br>
 
 <strong><u>[Website](https://movies-rec-system-ahaank.herokuapp.com/)
