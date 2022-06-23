@@ -1,35 +1,33 @@
 ---
 title: Search Engine
-description: Built a Search Engine Website that employs the TFIDF Ranking Algorithm.
+description: "Built a Search Engine Website that employs various Ranking Algorithms. "
 author: Ahaan Kanaujia
 date: 2020-09-23T15:13:13.021Z
 tags:
   - Python
+  - PyTorch
   - NLTK
   - spaCy
   - Flask
-  - WikipediaAPI
   - React.js
   - TailwindCSS
 ---
 ### Back End:
 
-A Wikipedia web-crawler downloads documents for searching. A TFIDF DataFrame is created for each word present in every search document. Implemented 3 different searching algorithms: cosine similarity algorithm, Jaccard index similarity algorithm, and the Ratcliff-Obershelp sequence based algorithm that returns the most relevant Wikipedia document based on a tokenized query. Also used the Levenshtein Distance edit based distance algorithm to widen the scope of the query, which accounts for minor errors in spelling and grammar.
+Employs different ranking algorithms such as the word based statistical  TFIDF, token based matching Jaccard Index, sequence based Ratcliff-Obershelp algorithms to return relevant documents based on a query. 
 
-<br>
+Users can upload documents from their computer to the website and select a specific algorithm or choose to run the best algorithm selector. 
+
+Utilizes the Levenshtein Distance algorithm which widens the scope of a query to account for minor errors in spelling and grammar. Creates multiple queries, similar to the one entered by the user. 
+
+An Artificial Neural Network, trained using the Gradient Descent and the doc2vec similarity algorithm, determines the ideal ranking algorithm based on the length of the query, reducing search latency by 60%.
 
 ### Front End:
 
-Created a Flask backend API for processing requests to the search algorithms. It is accompanied by a basic React.js page with a text box for entering the query. The most relevant Wikipedia pages are then displayed in a list format. 
+Created a Flask backend for processing requests and queries to the ranking algorithm and a RESTful API, which serves data in a JSON format.
 
-<br>
-
-![Site Functionality](/static/img/searchengine.png "Site Functionality")
+Accompanied by a basic React.js and Tailwind CSS page with a text box for entering the query and an endpoint to upload documents to the website. The most relevant documents are then displayed in a list format.
 
 <br>
 
 **Libraries Used: NLTK, spaCy, NumPy, pandas**
-
-<br>
-
-<u>**[GitHub](https://github.com/AhaanKanaujia)**
