@@ -1,6 +1,6 @@
 ---
 title: Keyword Extraction using Text Rank
-description: Implemented a Keyword Extraction Method based on PageRank
+description: Implemented a Keyword Extractor based on Google's PageRank Algorithm
 author: Ahaan Kanaujia
 date: 2022-03-14T02:01:20.997Z
 tags:
