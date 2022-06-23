@@ -27,7 +27,7 @@ Next, a score is calculated for each vertex and the PageRank algorithm is applie
 
 ### Analysis of the Results of Text Rank: 
 
-The text rank algorithm gives results similar to those in the research paper and online implementations for window size = 5 and by applying a syntactic filter to only consider nouns and propositions. 
+The text rank algorithm gives results similar to those in the research paper and online implementations for window size=5 and by applying a syntactic filter for nouns and propositions. 
 
 <br>
 
@@ -45,7 +45,7 @@ It is also completely unsupervised and draws information only from text itself. 
 
 <br>
 
-Text Rank can be improved by modifying the algorithm to consider the position of the words in a piece of text or by considering a set of documents instead of a single one to extract global information.
+Text Rank can be improved by modifying the algorithm to consider the position of the words in a piece of text or by considering a set of documents to extract global information.
 
 <br>
 
