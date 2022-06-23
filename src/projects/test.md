@@ -1,6 +1,6 @@
 ---
 title: Search Engine
-description: "Built a Search Engine Website that employs various Ranking Algorithms. "
+description: Built a Search Engine Website that employs various Ranking Algorithms
 author: Ahaan Kanaujia
 date: 2020-09-23T15:13:13.021Z
 tags:
