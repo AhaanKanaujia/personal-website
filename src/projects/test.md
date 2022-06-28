@@ -12,6 +12,8 @@ tags:
   - React.js
   - TailwindCSS
 ---
+<br>
+
 ### Back End:
 
 Employs different ranking algorithms such as the word based statistical  TFIDF, token based matching Jaccard Index, sequence based Ratcliff-Obershelp algorithms to return relevant documents based on a query. 
