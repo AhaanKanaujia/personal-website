@@ -42,4 +42,4 @@ Improved the security of the website by applying to SHA256 hashing algorithm in 
 
 <br>
 
-### [Github] (https://github.com/AhaanKanaujia/Online-Banking-Management-System)
+[<strong><u>GitHub](https://github.com/AhaanKanaujia/Online-Banking-Management-System)
