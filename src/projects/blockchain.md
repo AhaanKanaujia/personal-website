@@ -8,4 +8,4 @@ tags:
   - Elliptic_Curve_Cryptography
   - React.js
 ---
-Proof of Work based blockchain in JavaScript
+Implemented a simple proof of work algorithm
