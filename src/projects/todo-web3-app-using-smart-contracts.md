@@ -12,9 +12,11 @@ tags:
   - Web3
   - HTML/CSS
 ---
+<br>
+
 ### Back End:
 
-Created a simple blockchain based ToDo application powered by Ethereum Smart Contracts developed in Solidity, built using the Truffle Suite that can be deployed onto a Blockchain with migrations.  
+Created a blockchain based ToDo app powered by Ethereum Smart Contracts developed in Solidity, built using the Truffle Suite that can be deployed onto a Blockchain with migrations.  
 
 <br>
 
