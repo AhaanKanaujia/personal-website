@@ -1,5 +1,5 @@
 ---
-title: ToDo Web3 App using Smart Contracts
+title: ToDo App using Smart Contracts
 description: "Built a Smart Contract based ToDo App powered by Ethereum "
 author: Ahaan Kanaujia
 date: 2022-07-03T17:30:04.930Z
@@ -14,7 +14,13 @@ tags:
 ---
 ### Back End:
 
-Created a blockchain based ToDo application powered by Ethereum Smart Contracts developed in Solidity. Built using the Truffle Suite, with Truffle to compile the Smart Contracts on the Ethereum Virtual Machine (EVM) and Ganache as a private local blockchain to deploy the contracts and Web3 app. 
+Created a simple blockchain based ToDo application powered by Ethereum Smart Contracts developed in Solidity, built using the Truffle Suite that can be deployed onto a Blockchain with migrations.  
+
+<br>
+
+Utilized Truffle to compile the Smart Contracts on the Ethereum Virtual Machine (EVM) and Ganache as a private local blockchain to deploy the contracts and Web3 app. 
+
+<br>
 
 ### Front End:
 
