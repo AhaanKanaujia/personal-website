@@ -14,6 +14,12 @@ tags:
 ---
 <br>
 
+### Concept:
+
+A client side application is connected to a single Ethereum node. Smart Contracts written in Solidity powers the ToDo List and deploy it to the Ethereum blockchain. The blockchain network is connected to a personal account using an Ethereum wallet to interact with the ToDo List app. 
+
+<br>
+
 ### Back End:
 
 Created a blockchain based ToDo app powered by Ethereum Smart Contracts developed in Solidity, built using the Truffle Suite that can be deployed onto a Blockchain with migrations.  
