@@ -2,71 +2,58 @@
 title: About Me!
 layout: default
 ---
+<style>
+  .interests {
+    display: flex;
+    font-size: larger;
+    flex-direction: row;
+    color: #3b82f6;
+  }
+
+  .interests:before, .interests:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+
+  .interests:before {
+    margin-right: 10px
+  }
+
+  .interests:after {
+    margin-left: 10px
+  }
+
+  .courses {
+    display: flex;
+    font-size: larger;
+    flex-direction: row;
+    color: #3b82f6;
+  }
+
+  .courses:before, .courses:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+
+  .courses:before {
+    margin-right: 10px
+  }
+
+  .courses:after {
+    margin-left: 10px
+  }
+</style>
 
 <div class="container max-w-3xl mt-6 px-6">
   <h1 class="font-bold text-5xl">{{title}}</h1>
-  <div class="font-bold text-1xl">
-    <h3>
-      <u>My Story</u>
-    </h3>
-    <br />
-
-    <figure>
-      <img
-        src="https://media-exp1.licdn.com/dms/image/C4E03AQHNasj9OwpUnQ/profile-displayphoto-shrink_800_800/0/1627807126185?e=1652918400&v=beta&t=RsfxgEw3wsmnOyYs8Pryix0rDiplklghZggc86qB2I8"
-        alt="profile-picture"
-        width="200px"
-      />
-    </figure>
-
-    <br />
-    <hr />
-    <br />
-
-    <h2>
-      Hey, my name is Ahaan Kanaujia. I'm originally from India, where I did my
-      high school studying Mathematics, Physics, Chemistry, English, and
-      Economics. Currently, I'm majoring in Computer Science and Mathematics
-      with a minor in Statistics at the University of Illinois at
-      Urbana-Champaign (UIUC).
-    </h2>
-    <br />
-    <hr />
-    <br />
-    <h2>
-      I started studying Computer Science in March of 2021. Before that, for 3
-      years I prepared for the Joint Entrance Exam (JEE) for entrance into the
-      Indian Institute of Technologies (IITs), where I extensively studied
-      topics in Mathematics, Physics, and Chemistry.
-    </h2>
-    <br />
-    <hr />
-    <br />
-    <h2></h2>
-  </div>
-  <!-- Font Awesome 5.15.1 CSS -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-  />
-  <div class="text-3xl">
-    <a href="#" class="icon github">
-      <span><i class="fab fa-github"></i></span><strong
-      > <u
-        ><a href="https://github.com/AhaanKanaujia">AhaanKanaujia</a></u
-      ></strong
-    >
-    </a>
-    <br>
-    <a href="#" class="icon linkedin">
-      <span><i class="fab fa-linkedin"></i></span><strong
-      > <u
-        ><a href="https://www.linkedin.com/in/ahaan-kanaujia/"
-          >ahaan-kanaujia</a
-        ></u
-      ></strong
-    >
-    </a>
-  </div>
+  <br>
+  <div class="interests"><b>Interests</b></div>
+  <br>
+  <div class="courses"><b>Courses</b></div>
+  <br>
   {{ content | safe }}
 </div>
