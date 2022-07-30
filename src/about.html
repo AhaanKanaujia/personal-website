@@ -1,5 +1,5 @@
 ---
-title: About Me!
+title: Hello There
 layout: default
 ---
 <style>
@@ -8,6 +8,7 @@ layout: default
     font-size: larger;
     flex-direction: row;
     color: #3b82f6;
+    /* font-family: 'Times New Roman', Times, serif; */
   }
 
   .interests:before, .interests:after{
@@ -30,6 +31,7 @@ layout: default
     font-size: larger;
     flex-direction: row;
     color: #3b82f6;
+    /* font-family: 'Times New Roman', Times, serif; */
   }
 
   .courses:before, .courses:after{
@@ -46,14 +48,48 @@ layout: default
   .courses:after {
     margin-left: 10px
   }
+
+  .semester {
+    margin-left: 2%;
+    /* font-family: 'Times New Roman', Times, serif; */
+  }
 </style>
 
 <div class="container max-w-3xl mt-6 px-6">
   <h1 class="font-bold text-5xl">{{title}}</h1>
+  <hr><hr>
   <br>
   <div class="interests"><b>Interests</b></div>
   <br>
+  <div class="interests_desc">
+    
+  </div>
   <div class="courses"><b>Courses</b></div>
+  <div class="courses_desc">
+    <dl>
+      <br>
+      <dt style="font-size: larger;"><b>Fall 2022</b></dt>
+      <br>
+      <dd class="semester">CS 357: Numerical Methods I</dd>
+      <dd class="semester">CS 340: Introduction to Computer Systems</dd>
+      <dd class="semester">STAT 410: Statistics and Probability II</dd>
+      <dd class="semester">STAT 107: Data Science Discovery</dd>
+      <br>
+      <dt style="font-size: larger;"><b>Spring 2022</b></dt>
+      <br>
+      <dd class="semester">CS 225: Data Structures</dd>
+      <dd class="semester">MATH 347: Fundamental Mathematics</dd>
+      <dd class="semester">MATH 257: Linear Algebra with Computational Applications</dd>
+      <dd class="semester">STAT 400: Statistics and Probability I</dd>
+      <dd class="semester">CS 222: Software Design Studio</dd>
+      <br>
+      <dt style="font-size: larger;"><b>Fall 2021</b></dt>
+      <br>
+      <dd class="semester">CS 128: Introduction to Computer Science II</dd>
+      <dd class="semester">CS 173: Discrete Structures</dd>
+      <dd class="semester">MATH 241: Calculus III</dd>
+    </dl>
+  </div>
   <br>
   {{ content | safe }}
 </div>

@@ -1,0 +1,75 @@
+---
+title: Contact Me
+layout: default
+---
+
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    table {
+      border-collapse: separate;
+      border-spacing: 0 15px;
+    }
+    th {
+      background-color: #4287f5;
+      color: white;
+      align-content: center;
+    }
+    th,
+    td {
+      width: 200px;
+      text-align: center;
+      padding: 10px;
+    }
+</style>
+
+<div class="container max-w-3xl mt-6 px-6" style="font-family: sans-serif;">
+    <h1 class="font-bold text-5xl">{{title}}</h1>
+    <hr><hr>
+    <!-- <br>
+    <h3 style="text-align: center; color: #3b82f6;">Feel free to get in touch with me!</h3> -->
+    <table class="center">
+        <tr>
+            <td>
+                <div class="contact-mail">
+                    <img src="https://d338t8kmirgyke.cloudfront.net/icons/icon_pngs/000/007/873/original/email.png" style="width:75px;height:75px;" class="center">
+                    <div style="text-align:center">
+                        <a href="mailto:kanaujia.ahaan@gmail.com">ahaank2@illinois.edu</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="contact-linkedin">
+                    <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" style="width:75px;height:75px;" class="center">
+                    <div style="text-align:center">
+                        <a href="https://www.linkedin.com/in/ahaan-kanaujia/">Ahaan Kanaujia</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="contact-github">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" style="width:75px;height:75px;" class="center">
+                    <div style="text-align:center">
+                        <a href="https://github.com/AhaanKanaujia">AhaanKanaujia</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="contact-twitter">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1400/1400822.png" style="width:75px;height:75px;" class="center">
+                    <div style="text-align:center">
+                        <a href="https://twitter.com/ahaan_kanaujia">ahaan_kanaujia</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+  {{ content | safe }}
+</div>
