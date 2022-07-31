@@ -1,5 +1,5 @@
 ---
-title: Hello There
+title: About Me
 layout: default
 ---
 <style>
@@ -53,16 +53,58 @@ layout: default
     margin-left: 2%;
     /* font-family: 'Times New Roman', Times, serif; */
   }
+
+  .background {
+    display: flex;
+    font-size: larger;
+    flex-direction: row;
+    color: #3b82f6;
+    /* font-family: 'Times New Roman', Times, serif; */
+  }
+
+  .background:before, .background:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+
+  .background:before {
+    margin-right: 10px
+  }
+
+  .background:after {
+    margin-left: 10px
+  }
 </style>
 
 <div class="container max-w-3xl mt-6 px-6">
   <h1 class="font-bold text-5xl">{{title}}</h1>
   <hr><hr>
   <br>
+  <div class="background"><b>Background</b></div>
+  <br>
+  <p>
+    Hello there, I'm Ahaan, an undergraduate student at UIUC from India. I've always been interested in 
+    solving problems and optimizing solutions, which is how I got into computer science and math. 
+    <br>
+    I also love reading about physics(mostly relativity), listening to rock music, playing chess and piano.
+  </p>
+  <br>
   <div class="interests"><b>Interests</b></div>
   <br>
   <div class="interests_desc">
-    
+    <p>
+      I enjoy working with Python and exploring topics in data science and machine learning. I've also done some 
+      AI and NLP research. From time to time, I enjoy solving algorithmic problems with C++.
+      <br><br>
+      Lately, I've gotten into quantitative finance and blockchain. I've experimented with algorithmic trading,
+      smart contracts, and Web3 projects, and I'm looking forward to exploring these fields.
+      <br><br>
+      Eventually, I hope to pursue a career in the field of computer science, specifically machine learning/ artificial 
+      intelligence research or work in the finance sector as a Quant developer/ trader. 
+    </p>
+    <br>
   </div>
   <div class="courses"><b>Courses</b></div>
   <div class="courses_desc">
