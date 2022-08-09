@@ -4,7 +4,12 @@ description: Built a DeFi Dapp with Solidity and Hardhat
 author: Ahaan Kanaujia
 date: 2022-08-09T19:41:23.844Z
 tags:
-  - python
+  - Solidity
+  - JavaScript
+  - Hardhat
+  - Ethers.js
+  - Goerli
+  - HTML/CSS
 ---
 <br>
 
