@@ -15,7 +15,7 @@ tags:
 
 ### Concept:
 
-A DeFi (Decentralized Finance) Dapp (Decentralized Application) that allows visitors to send Goerli as tips and leave messages. The Smart Contracts are deployed to the Goerli test network. 
+A DeFi (Decentralized Finance) Dapp (Decentralized Application) that allows visitors to send Goerli as tips and leave messages. The Smart Contracts are deployed to the Goerli test network. The user can withdraw the (Goerli) GOR he received to an address of his choice.
 
 <br>
 
