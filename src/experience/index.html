@@ -3,80 +3,103 @@ title: Experiences
 layout: default
 ---
 
+<style>
+  .row {
+    display: flex;
+    font-size: larger;
+    flex-direction: row;
+    color: #3b82f6;
+    /* font-family: 'Times New Roman', Times, serif; */
+  }
+
+  .row:before, .row:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1.5px solid;
+    margin: auto;
+  }
+
+  /* .row:before {
+    margin-right: 10px
+  }
+
+  .row:after {
+    margin-left: 10px
+  } */
+</style>
+
 <div class="container max-w-3xl mt-6 px-6">
   <h1 class="font-bold text-5xl">{{title}}</h1>
   <hr><hr>
   <br>
   <div>
+    <h2 class="font-bold text-3xl text-gray-900 mb-2"><a href="https://lummusdigital.com/">Lummus Digital</a></h2>
+    <h4><i><b>Machine Learning Intern (May 2023 - August 2023)</b></i></b></i></h4>
+    <br>
+    <p>
+      Employed 
+      <a href="https://arxiv.org/pdf/0811.1645.pdf" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">random survival forests</a>  
+      to perform underwriting in the life insurance industry by creating a life score to rank individuals. Inspiration:  
+      <a href="https://dl.acm.org/doi/abs/10.1609/aaai.v33i01.33019373" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Transforming Underwriting in the Life Insurance Industry</a>.
+      Achived an accuracy of 84%.
+    </p>
+    <br>
+    <p>
+      Utilized 
+      <a href="https://machinelearningmastery.com/gentle-introduction-gradient-boosting-algorithm-machine-learning/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">gradient boosting</a> 
+      to predict the output yield in production plants using the 
+      <a href="https://www.nvidia.com/en-us/glossary/data-science/xgboost/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">XGBoost</a> 
+      library. Achieved an accuracy of 91% after hyperparameter tuning.
+    </p>
+  </div>
+  <br>
+    <div class="row"></div>
+    <br>
+  <div>
     <h2 class="font-bold text-3xl text-gray-900 mb-2"><a href="https://giesgroups.illinois.edu/disruptionlab/home-v2/">Disruption Lab at Gies</a></h2>
-    <h4><i><b>Software Engineer (September 2022 - Present)</b></i></h4>
+    <h4><i><b>Technical Lead (September 2022 - May 2023)</b></i></h4>
     <br>
-    <!-- - Collaborated with 9 students to design a double DAO (Decentralized Autonomous Organization) structure for tokenization of natural resources by mining companies
-    - Implement a modified ERC20 token priced and traded based on a ETF of natural mineral ores
-    - Wrote and tested Solidity smart contracts using Hardhat on the Polygon testnet to facilitate pricing and trading of the tokens
-    - Optimized code to reduce gas fees on the Ethereum blockchain by ~80%
-    - Collaborated to create a DEX (Decentralized Exchange) website where users can trade the token -->
     <p>
-      Collaborated with 9 students to design a double
-      <a href="https://www.investopedia.com/tech/what-dao/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">DAO (Decentralized Autonomous Organization)</a> 
-      structure for
-      <a href="https://www.gemini.com/cryptopedia/what-is-tokenization-definition-crypto-token" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">tokenization</a> 
-      of natural resources by mining companies. The token is a modified ERC20 token priced and traded based on a ETF of natural mineral ores, such as limestone and iron.
+      Led a team of 7 developers in creating a double 
+      <a href="https://www.investopedia.com/tech/what-dao/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">DAO (Decentralized Autonomous Organization)</a>  
+      structure for tokenization of natural resources by mining companies.
     </p>
     <br>
     <p>
-      Wrote
-      <a href="https://www.investopedia.com/terms/s/smart-contracts.asp" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">smart contracts</a>  
-      in Solidity using the 
-      <a href="https://hardhat.org/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Hardhat</a>  
-      development environment and deployed them to the 
-      <a href="https://polygon.technology/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Polygon</a>  
-      testnet. The contracrs contain the pricing and trading functionalities of the tokens.
+      Created developer workflows using Confluence and DevOps to optimize team efficiency.
     </p>
     <br>
     <p>
-     Optimized the smart contract code to reduce gas fees on the 
-     <a href="https://ethereum.org/en/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Ethereum</a>   
-     blockchain by ~80%, and collaborated to create a 
-     <a href="https://www.gemini.com/cryptopedia/decentralized-exchange-crypto-dex" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">DEX (Decentralized Exchange)</a>  
-     website where users can trade the token.
+     Wrote smart contracts to interact with a modified ERC20 token, which is traded based on a 
+     <a href="https://phemex.com/academy/what-is-bonding-curve" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">bonding curve</a>
+     on a public 
+     <a href="https://www.gemini.com/cryptopedia/decentralized-exchange-crypto-dex" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">DEX (Decentralized Exchange)</a>
+     website.
     <br>
+    <br>
+    <div class="row"></div>
     <br>
     </p>
     <h2 class="font-bold text-3xl text-gray-900 mb-2"><a href="https://www.vibrenthealth.com/about-us/">Vibrent Health</a></h2>
     <h4><i><b>Data Engineering Intern (June 2022 - August 2022)</b></i></h4>
     <br>
     <p>
-      Implemented a pipeline to migrate data from 8+ MySQL databases into cloud data storages such as
-      <a href="https://aws.amazon.com/s3/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">S3</a> 
-      and 
-      <a href="https://min.io/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">MinIO,</a>
-      while processing that semi-structured data using 
-      <a href="https://spark.apache.org/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Spark</a>
-      and Python to clean and redesign the data for further analysis. 
+      Designed 
+      <a href="https://meltano.com/blog/the-benefits-of-elt-vs-etl-what-you-need-to-know/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">ELT</a>
+      pipelines to automate migrating data into cloud data storages from SQL databases, which was analysed and processed on the cloud using 
+      <a href="https://www.snowflake.com/en/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Snowflake</a>
+      to derive insights.
     </p>
     <br>
     <p>
-      Created connected containerzied data validation microservices for cloud data using
-      <a href="https://www.docker.com/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Docker</a>  
-      and orchestrated their deployment, scaling, and management using
-      <a href="https://kubernetes.io/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Kubernetes</a>
-      and automated the building, testing, and deployment of the pipelines using 
-      <a href="https://www.jenkins.io/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Jenkins.</a>
-    </p>
-    <br>
-    <p>
-      Designed and built 
-      <a href="https://docs.meltano.com/concepts/elt" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">ELT</a>
-      pipelines using
-      <a href="https://meltano.com/elt-meltano/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Meltano</a>
-      to automate ingesting data from various sources into the cloud and analysed that data using
-      <a href="https://www.snowflake.com/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Snowflake</a>
-      while utilizing 
-      <a href="https://www.getdbt.com/product/what-is-dbt/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">dbt</a>
-      to manage pipeline workloads. 
+      Created containerzied data validation microservices for cloud data using
+      <a href="https://www.docker.com/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Docker</a>
+      and  
+      <a href="https://kubernetes.io/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Kubernetes</a>.
     </p>
   </div>
+  <br>
+    <div class="row"></div>
   <br>
   <div>
       <h2 class="font-bold text-3xl text-gray-900 mb-2"><a href="https://engineeringforsustainability.com/">Guest Research Group</a></h2>
@@ -84,29 +107,23 @@ layout: default
       <br>
       <p>
         Designed and created a 
-        <a href="https://www.timescale.com/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">TimescaleDB</a>
-        , time-series SQL database, to insert and query over 9 million time
-        stamped raw records from 8+ primary data sources using
-        <a href="https://docs.sqlalchemy.org/en/12/core/connections.html" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">SQLAlchemy</a>
-        to create engine connections to databases and ingest data in the form of dataframes.
+        <a href="https://www.timescale.com/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">TimescaleDB</a>, 
+        time-series SQL database, to insert and query 
+        time stamped raw records using SQLAlchemy to create engine connections to databases.
       </p>
       <br>
       <p>
-        Setup and wrote CRUD (create, read, update, delete) operation functions for multiple
-        <a href="https://www.postgresql.org/about/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">PostgreSQL</a>
-        databases using python connectors and used 
-        <a href="https://databricks.com/glossary/what-is-spark-sql" style="text-decoration: underline #3b82f6;"class="underline" target="_blank">Spark SQL</a>
-        to process the structured data, decreasing the query time and ingestion speed. 
-      </p>
-      <br>
-      <p>
-        Generated visualizations based on data extracted from Timescale and PostgreSQL databases. 
+        Wrote CRUD operation functions for 
+        <a href="https://www.postgresql.org/about/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">PostgreSQL</a> 
+        relational databases with Python connectors.
       </p>
   </div>
   <br>
+    <div class="row"></div>
+  <br>
   <div>
       <h2 class="font-bold text-3xl text-gray-900 mb-2"><a href="https://csl.illinois.edu/directory/faculty/caesar">Caesar Research Group</a></h2>
-      <h4><i><b>NLP Undergraduate Research Assistant (September 2021 - Present)</b></i></b></i></h4>
+      <h4><i><b>NLP Undergraduate Research Assistant (September 2021 - August 2022)</b></i></b></i></h4>
       <br>
       <p>
         Performed research on using semantic clustering algorithms and convolutional neural networks to perform
@@ -125,6 +142,8 @@ layout: default
       </p>
   </div>
   <br>
+    <div class="row"></div>
+  <br>
   <div>
       <h2 class="font-bold text-3xl text-gray-900 mb-2"><a href="https://www.ideationts.com/index.php/about-us/">Ideation Technologies</a></h2>
       <h4><i><b>Data Science Intern (July 2021 - August 2021)</b></i></b></i></h4>
@@ -132,10 +151,8 @@ layout: default
       <p>
         Performed 
         <a href="https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/spatial_analysis_interpolation.html" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Spatial Analysis</a>
-        (Geospatial Interpolation) of Particulate Matter 2.5 and 10 air pollutant concentrations. I 
-        implemented the 
-        <a href="https://desktop.arcgis.com/en/arcmap/latest/extensions/geostatistical-analyst/understanding-ordinary-kriging.htm" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Ordinary Kriging Model</a>
-        on data collected from over 20 stations over a period of 4 years.
+        (Geospatial Interpolation) of Particulate Matter 2.5 and 10 air pollutant concentrations using the 
+        <a href="https://desktop.arcgis.com/en/arcmap/latest/extensions/geostatistical-analyst/understanding-ordinary-kriging.htm" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Ordinary Kriging Model</a>.
       </p>
       <br>
       <p>
@@ -143,25 +160,21 @@ layout: default
         <a href="https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/how-trend-works.htm#:~:text=A%20first%2Dorder%20linear%20trend,fit%20for%20the%20entire%20surface." style="text-decoration: underline #3b82f6;" class="underline" target="_blank">first order linear trend surface</a>
         by performing
         <a href="https://www.sciencedirect.com/topics/social-sciences/multiple-regression#:~:text=Multiple%20regression%20is%20a%20statistical,of%20the%20single%20dependent%20value." style="text-decoration: underline #3b82f6;" class="underline" target="_blank">multiple regression analysis</a>
-        on the scattered data and used it to detrend the data. I also computed and fit a mathematical model 
-        to an 
-        <a href="https://www.sciencedirect.com/topics/earth-and-planetary-sciences/variogram" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">experimental variogram</a>
-        using the detrended data, and used it to create an 
+        on the scattered data to create an 
         <a href="https://pro.arcgis.com/en/pro-app/2.8/tool-reference/spatial-analyst/understanding-interpolation-analysis.htm" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">interpolated surface.</a>
       </p>
     </div>
+    <br>
+      <div class="row"></div>
     <br>
     <div>
         <h2 class="font-bold text-3xl text-gray-900 mb-2"><a href="https://www.cii.in/About_Us.aspx?enc=ns9fJzmNKJnsoQCyKqUmaQ==">Confederation of Indian Industry</a></h2>
         <h4><i><b>Project Intern (June 2020 - August 2020)</b></i></b></i></h4>
         <br>
         <p>
-          I interned with the 
+          Interned with the 
           <a href="https://www.cii-mcc.in/?section=about" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">Model Career Centre Initiative</a>
           working on a project that assessed the employability quotient of job seekers displaced by the pandemic. 
-          I collected, stored, and constantly updated employer and employee data, which involved data management using
-          <a href="https://dev.mysql.com/doc/" style="text-decoration: underline #3b82f6;" class="underline" target="_blank">MySQL</a>
-          databases.
         </p>
         <br>
     </div>
@@ -169,4 +182,3 @@ layout: default
   {{ content | safe }}
 </div>
 
-  
